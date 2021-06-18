@@ -12,7 +12,16 @@ body
     background-size: 100%;
     background-color: black;
     position: relative;  
-    width: 100%;
+    
+}
+
+.lampadaimg > form
+{
+    position: absolute;
+    align-items: center;
+    z-index: 1;
+    top: 200px;
+    left: 750px;
 }
 /*--------------------------- texto saudação---------------------------------------------*/
 .saudacao
@@ -111,16 +120,18 @@ a { text-decoration: none;}
    
     text-align: center;
     width: 100%;
-    font-size: 30px;
+    height: 350px;
+    font-size: 20px;
     color: #fa8b60;
     background-color: #363636; 
     border-radius: 30px;
+    
     
 }
 .spotfy img
 { 
     align-items: center;
-    width: 100%;
+    width: 90%;
     border-radius: 30px;
    
 }
