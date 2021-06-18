@@ -3,12 +3,13 @@ body
     margin: 0;
     margin-right: 0;
     padding: 0;
+    
 }
 /*------------------------------imagem lampada----------------------------------------*/
 .lampadaimg
 {   
-    
-    background-attachment: fixed;
+   
+    display: flex;
     background-size: 100%;
     background-color: black;
     position: relative;  
@@ -17,19 +18,18 @@ body
 
 .lampadaimg > form
 {
+    display: flex;
     position: absolute;
-    align-items: center;
+    
     z-index: 1;
-    top: 200px;
-    left: 750px;
+    top: 150px;
 }
-/*--------------------------- texto saudação---------------------------------------------*/
+/*--------------------------- texto saudação---------------------------------------------
 .saudacao
 {
-    position: absolute;
-    width: 100%;
+   position: absolute;
     z-index: 1;
-    top: 40px;
+    top: 20px;
     left: 30px;
     z-index: 1;
     color: rgb(233, 210, 210);
@@ -98,10 +98,11 @@ a { text-decoration: none;}
     border-radius: 30px;
     width: 100%;
     height: 100px;
+    display: flex;
 }
 .divisao > h1
 {
-    
+    display: flex;
     color: #fa8b60;
     text-align: center;
     font-size: 60px;
