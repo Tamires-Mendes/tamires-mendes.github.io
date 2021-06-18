@@ -20,9 +20,8 @@ body
 {
     display: flex;
     position: absolute;
-    
     z-index: 1;
-    top: 150px;
+    
 }
 /*--------------------------- texto saudação---------------------------------------------
 .saudacao
